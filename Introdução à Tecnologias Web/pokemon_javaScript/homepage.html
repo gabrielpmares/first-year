@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+ <!-- Grupo: 05 ; Números: 56929, 57160, 56952 ; Nomes: Francisco Pinto fc56929, Gabriel Azevedo fc57160 e Tiago Rosa fc56952 ; PL: 22 !-->
+<html>
+    <meta charset="utf-8">
+    <head>
+    <link rel="stylesheet" href="estilos/homepage.css">
+    <link rel="stylesheet" href="estilos/login.css">
+    <script src="scripts/login.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/header.css">
+    <script src="scripts/audio.js"></script>
+        <title>PokeChill</title>
+    </head>
+    <body>
+        <div class="Titulo"><a href="homepage.html"><img class="pokechillimg" src="imagens/pokechilltexto.png" alt="titulo do site" width="200px"></a></div>
+        <div class="dropdown">
+                <button class="dropbtn"><span class="material-icons md-light">dehaze</span></button>
+                <div class="dropdown-content">
+                    <a href="tutorial.html">Tutorial <img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+                    <a href="info.html">Informação <img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+                    <a href="estatisticas.html">Estatísticas <img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+                </div>
+        </div>
+            <h2>Ínicio</h2>
+            <div id="resumoinicio">
+            <p>Bem-vindos ao projeto PokeChill!</p>
+            <p>Este projeto tem como objetivo criar um jogo de Pokémon em JavaScript.</p>
+            <p>Neste jogo, é possível criar uma personagem capaz de fazer missões, capturar pokémons e fazer lutas contra outros pokémons selvagens.</p>
+            </div>
+    <div class="botaocenter">
+        <button id="botaoJogarPokechill" onclick="document.getElementById('Login').style.display='block'"  class="red"> Jogar PokeChill</button>
+        <div id="Login" class="modal">
+            <form class="modal-content animate">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('Login').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="imagens/Poke_Ball.png" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" id="uname" required>
+        
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" id="psw" required>
+              <div class="login">
+              <button type="submit" onclick="return login()">Login</button>
+              </div>
+              <label>
+                <input class="checkbox" type="checkbox" checked="checked" name="remember"> Remember username
+              </label>
+            </div>
+            <div class="logincontainer">
+              <button onclick="document.getElementById('Login').style.display='none'" class="cancelbtn" title="Close Modal">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+              <span class="register">Not registered? <a href="signup.html">Sign Up</a></span>
+            </div>
+          </form>
+        </div>
+        </div>
+        <p>Para mais quem nunca ouviu falar de pokemon, temos uma informação relevante em relação à história do Pokémon na secção <a href="info.html">INFO</a></p>
+        <p>Temos também uma página com toda a informação dos controls e das configurações dentro do jogo em <a href="tutorial.html">Tutorial</a></p>    
+    <div class="background"></div>
+    <div class="tabelaeaudiorelative">
+        <div class="tabelafloatdown">
+        <div class="audioContainer" align="center">
+            <table class="tabelacreditos" >
+                <thead>
+                    <tr>
+                        <th>Projeto desenvolvido por:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Francisco Pinto nº56929</td>
+                    </tr>
+                    <tr>
+                        <td>Gabriel Azevedo nº57160</td>
+                    </tr>
+                    <tr>
+                        <td>Tiago Rosa nº56952</td>
+                    </tr>
+                </tbody>
+            </table>
+            <audio class="audiobox" autoplay id="PokeChill" controls="controls" onloadeddata="setVolume()" loop="loop">
+                <source src="audio/Poke_Chill.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        </div>
+    </div>
+    </body>
+</html>

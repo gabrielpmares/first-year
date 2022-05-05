@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Grupo: 05 ; Números: 56929, 57160, 56952 ; Nomes: Francisco Pinto fc56929, Gabriel Azevedo fc57160 e Tiago Rosa fc56952 ; PL: 22 !-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Estatísticas</title>
+        <link rel="stylesheet" href="estilos/estatisticas.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="estilos/header.css">
+        <script src="scripts/leaderboards.js"></script>
+    </head>
+    <body>
+        <div class="Titulo"><a href="homepage.html"><img src="imagens/pokechilltexto.png" class="pokechillimg" alt="titulo do site" width="200px"></a></div>
+        <div class="dropdown">
+            <button class="dropbtn"><span class="material-icons md-light">dehaze</span></button>
+            <div class="dropdown-content">
+                <a href="homepage.html">Homepage<img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+                <a href="tutorial.html">Tutorial<img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+                <a href="info.html">Informação <img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+            </div>
+        </div>
+        <div class="grid-container">
+        
+            <div class="estatisticas">
+                <div class="centrar"> 
+                <h1>Estatísticas</h1>
+                </div>
+            </div>
+            <div>
+                <div class="centrar"> 
+                <img class="trofeu" src="imagens/trofeu.png" alt="troféu" height="150">
+                </div>
+            </div>
+            <table>
+            <tr>
+                <th id="nome" colspan="2"></th>
+            </tr>
+            <tr>
+                <th>Tempo Total Jogado</th>
+                <td id="timePlayed"></td>
+            </tr>
+            <tr>
+                <th>Pokemons derrotados</th>
+                <td id="pokemonDefeated"></td>
+            </tr>
+            <tr>
+                <th>Ginásios derrotados</th>
+                <td id="gymsDefeated"></td>
+            </tr>
+            <tr>
+                <th>Mapas descobertos</th>
+                <td id="discoveredMaps"></td>
+            </tr>
+            <tr>
+                <th>Distância percorrida (passos)</th>
+                <td id="stepsTaken"></td>
+            </tr>
+            <tr>
+                <th>Experiência total acumulada</th>
+                <td id="experienceTotal"></td>
+            </tr>
+            </table>
+        </div>
+    </body>
+</html>

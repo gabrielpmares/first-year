@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<!-- Grupo: 05 ; Números: 56929, 57160, 56952 ; Nomes: Francisco Pinto fc56929, Gabriel Azevedo fc57160 e Tiago Rosa fc56952 ; PL: 22 !-->
+
+<!-- COMO JOGAR -->
+
+<html lang="pt">
+
+<head>
+    <link rel="stylesheet" href="estilos/tutorial.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/header.css">
+    <meta charset="utf-8">
+    <title>Tutorial - PokeChill</title>
+</head>
+<body>
+    <div class="Titulo"><a href="homepage.html"><img src="imagens/pokechilltexto.png" class="pokechillimg" alt="titulo do site" width="200px"></a></div>
+    <div class="dropdown">
+        <button class="dropbtn"><span class="material-icons md-light">dehaze</span></button>
+        <div class="dropdown-content">
+            <a href="homepage.html">Homepage<img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+            <a href="info.html">Informação <img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+            <a href="estatisticas.html">Estatísticas <img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="Btn" title="go to top">Back to top</button>
+    <script src="scripts/tutorial.js"></script>
+    <div class="content">
+        <section id="header">
+            <div class="intro">
+                <h1>Tutorial</h1>
+                <p>
+                    Nesta página encontra-se um vídeo tutorial do jogo (como se acede <br>
+                    às missões, como se caçam Pokemons e até mesmo como aceder a todo <br>
+                    tipo de informaçao sobre o jogador) assim como uma secção das <br>
+                    instruções e comandos do jogo.
+                </p>
+                <p>
+                    O primeiro passo é fazer o login no nosso site, para isso terá <br>
+                    de se registar. Na <a href="homepage.html">HomePage</a> assim que
+                    carregar no botão <br> "Jogar PokeChill" vai aparecer um pop-up para tal.
+                </p>
+            </div>
+            <div>
+                <p class="comment">
+                    HAVE FUN!! </p>
+            </div>
+            <nav>
+                <p>Clica <a href="#video">aqui</a> para ver o vídeo.</p>
+                <p>Clica <a href="#instrucoes">aqui</a> para ver as instruções.</p>
+            </nav>
+        </section>
+        <!-- video tutorial-->
+        <div class="vid_sec">
+            <iframe id="video" src="https://www.youtube.com/embed/24Y95lZCa7s" allowfullscreen>
+            </iframe>
+        </div>
+        <!-- instrucoes das teclas (como manusear o jogador)-->
+        <section>
+            <div id="instrucoes">
+                <h1>Instruções de jogo:</h1>
+                <div class="move">
+                    <!-- mover o player-->
+                    <img src="imagens/w.png" alt="w" width="50">
+                    <img src="imagens/a.png" alt="a" width="50">
+                    <img src="imagens/s.png" alt="s" width="50">
+                    <img src="imagens/d.png" alt="d" width="50">
+                    <p>Mover o jogador</p>
+                </div> <br>
+                <div class="interact">
+                    <!-- interagir com portas, etc-->
+                    <img src="imagens/f.png" alt="interact" width="50">
+                    <p>Interagir com obstáculos</p>
+                </div> <br>
+                <div class="select">
+                    <!-- selecionar -->
+                    <img src="imagens/left_click.png" alt="left_click" width="50">
+                    <p>Selecionar</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

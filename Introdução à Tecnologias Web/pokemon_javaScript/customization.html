@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Grupo: 05 ; Números: 56929, 57160, 56952 ; Nomes: Francisco Pinto fc56929, Gabriel Azevedo fc57160 e Tiago Rosa fc56952 ; PL: 22 !-->
+<html lang="pt">
+
+<head>
+    <link rel="stylesheet" href="estilos/customization.css">
+    <title>PokeChill - Costum your player</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <h1>Personaliza o teu personagem:</h1>
+        </header>
+        <div class="costumize">
+            <div class="male">
+                <div>
+                    <button id="boy">Masculino</button>
+                </div>
+                <div>
+                    <button id="outfit_boy1">Outfit 1</button>
+                    <button id="outfit_boy2">Outfit 2</button>
+                </div>
+            </div>
+            <div class="female">
+                <div>
+                    <button id="girl">Feminino</button>
+                </div>
+                <div>
+                    <button id="outfit_girl1">Outfit 1</button>
+                    <button id="outfit_girl2">Outfit 2</button>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="pokemon">
+                <h1>Escolhe o teu pokemon inicial:</h1>
+                <button id="charmander">Charmander</button>
+                <button id="squirtle">Squirtle</button>
+                <button id="bulbasaur">Bulbasaur</button>
+            </div>
+        </div>
+        <div class="PLAY">
+            <form method="get" action="jogo.html">
+                <button class="btn" type="submit">PLAY</button>
+            </form>
+        </div>
+    </div>
+    <div class="preview">
+        <img src="imagens/boy1.png" width="300" id="player_preview" alt="player_preview">
+        <img src="imagens/charmander.png" width="600" id="pokemon_preview" alt="pokemon_preview">
+    </div>
+    <script src="scripts/customization.js"></script>
+</body>
+
+
+</html>

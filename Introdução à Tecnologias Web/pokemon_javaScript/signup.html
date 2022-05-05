@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Grupo: 05 ; Números: 56929, 57160, 56952 ; Nomes: Francisco Pinto fc56929, Gabriel Azevedo fc57160 e Tiago Rosa fc56952 ; PL: 22 !-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Página de Registo</title>
+    <link rel="stylesheet" href="estilos/signup.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="estilos/header.css">
+    <script src="scripts/login.js"></script>
+</head>
+<body>
+    <div class="Titulo"><a href="homepage.html"><img class="pokechillimg" src="imagens/pokechilltexto.png" alt="titulo do site" width="200px"></a></div>
+    <div class="dropdown">
+            <button class="dropbtn"><span class="material-icons md-light">dehaze</span></button>
+            <div class="dropdown-content">
+                <a href="homepage.html">Homepage<img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+                <a href="tutorial.html">Tutorial <img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+                <a href="info.html">Informação <img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+                <a href="estatisticas.html">Estatísticas <img src="imagens/Poke_Ball.png" alt="pokebola" class="pokebolabtn"></a>
+            </div>
+    </div>
+    <div class="bg"></div>
+    <form  class="formaction">
+        <div class="container">
+            <h1>Sign Up</h1>
+            <p>Por favor, preencha os campos para se registar</p>
+            <hr>
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Insira o Username" id="uname" value="" required>
+
+            <label for="password"><b>Senha</b></label>
+            <input type="password" placeholder="Insira a senha" id="pw" value="" required>
+            <div class="clearfix">
+                <a href="homepage.html" class="cancelbtn">Cancelar</a>
+                <button id="signupbtn" onclick="return signup()" type="submit" class="signupbtn">Sign Up</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
