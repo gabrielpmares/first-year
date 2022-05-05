@@ -14,10 +14,8 @@ caracteresEspeciais = ['\s','0','1','2','3','4','5','6','7','8','9','(',')','[',
 ### FUNCOES ###
 def carregarVocabulario(filename):
     """_summary_
-
     Args:
         filename (str): _description_
-
     Returns:
         dic: dicionario com todas as palavras
     """  
@@ -31,8 +29,6 @@ def gerarPalavras(texto):
     """ recebe uma string com texto, e devolve uma lista com as várias palavras contidas na string, pela ordem que aparecem.
     Args:
         texto (string): palavra
-        
-
     Returns:
         list: lista com as várias palavras contidas na string, pela ordem que aparecem.
     """ 
@@ -48,11 +44,9 @@ def gerarPalavras(texto):
 
 def mmLetras(palavra1, palavra2):
     """ a subtração entre o tamanho da maior palavra dada e o número de letras iguais nas mesmas posições entre as duas palavras.
-
     Args:
         palavra1 (string): palavra
         palavra2 (string): palavra
-
     Returns:
         int: distancia entre as palavras
     """    
@@ -67,11 +61,9 @@ def mmLetras(palavra1, palavra2):
 def edicoes(palavra1, palavra2):
     """ devolve o número mínimo de operações de edição necessárias para transformar uma palavra na outra.
     (inserir uma letra numa qualquer posição, apagar uma letra ou substituir uma letra por outra letra)
-
     Args:
         palavra1 (str): palavra
         palavra2 (str): palavra
-
     Returns:
         int: numero de operações para transformar uma palavra na outra
     """    
@@ -96,13 +88,11 @@ def edicoes(palavra1, palavra2):
 def sugerir(dic, palavra, distancia, maxSugestoes=5):
     """ recebe um vocabulário, uma palavra, uma função de distância e um inteiro positivo n de sugestões
     e devolve uma lista de n palavras do vocabulário mais próximas da palavra dada, de acordo com a função de distância.
-
     Args:
         dic (dict): dicionario com palavras
         palavra (str): palavra requerida
         distancia (int): distancia da palavra mais próxima
         maxSugestoes (int, optional): _description_. Defaults to 5.
-
     Returns:
         list: lista com as palavras mais próximas encontradas
     """    
@@ -131,13 +121,11 @@ def sugerir(dic, palavra, distancia, maxSugestoes=5):
 
 def corretor(dic, texto, distancia, maxSugestoes=5): 
     """ recebe um vocabulário, um texto, uma função de distância e um inteiro positivo n de sugestões e imprime um relatório com as correções sugeridas.
-
     Args:
         dic (dict): dicionario com o vocabulario
         texto (str): frase que deseja a sugestão de correções
         distancia (int): distancia da palavra mais próxima para cada palavra da frase
         maxSugestoes (int, optional): _description_. Defaults to 5.
-
     Returns:
         _type_: _description_
     """    
