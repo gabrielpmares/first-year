@@ -1,0 +1,127 @@
+/* Grupo: 05 ; Números: 56929, 57160, 56952 ; Nomes: Francisco Pinto fc56929, Gabriel Azevedo fc57160 e Tiago Rosa fc56952 ; PL: 22 */
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+    font-family: monospace;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imagens/background_tutorial.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    bottom: 117px;
+}
+
+#header a {
+    position: relative;
+    z-index: 1;
+}
+
+section#header h1{
+    margin: auto auto auto 1%;
+    font-family: monospace;
+    font-size: 70px;
+    color: yellow;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: blue;
+    position: relative;
+    top: 65px;
+}
+
+section#header p {
+    position: relative;
+    top: 65px;
+    font-size: x-large;
+}
+
+section#h1 {
+    font-family: monospace;
+}
+
+.intro {
+    margin: auto auto auto 2%;
+}
+
+.comment {
+    font-size: 30px;
+    margin: auto auto auto 2%;
+}
+
+nav {
+    margin: auto auto auto 2%;
+}
+
+p, h1 {
+    font-family: monospace;
+}
+
+#instrucoes {
+    margin: 1%;
+    font-size: 20px;
+}
+
+#instrucoes div {
+    width: 300px;
+    height: 100px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+
+
+#video {
+    width: 55%;
+    height: 600px;
+    margin: auto;
+    border: 10px outset #ddd;
+}
+
+
+#Btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#Btn:hover {
+    background-color: #555;
+}
+
+.pokechillimg {
+    position: relative;
+    left: 9px;
+}
+
+.Titulo {
+    position: relative;
+    top: -1px;
+    height: 101%;
+}
+
+.dropbtn {
+    position: relative;
+    top: 5.5px;
+}

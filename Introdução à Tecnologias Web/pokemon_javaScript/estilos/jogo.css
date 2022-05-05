@@ -1,0 +1,64 @@
+
+table {
+    border-collapse: collapse;
+    padding: 0;
+}
+
+body {
+    background-image: url("../imagens/gameBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+td,
+tr {
+    padding: 0;
+    border: none;
+    margin: 0;
+    line-height: 0;
+}
+
+#mapa {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+}
+
+#loreTitle {
+    position: absolute;
+    top: 20pc;
+    left: 2pc;
+}
+
+#lore {
+    position: absolute;
+    top: 24pc;
+    left: 1pc;
+    
+
+}
+
+#TempoJogadoTitulo {
+    position: absolute;
+    top: 200px;
+    left: 1500px;
+    z-index:1;
+    font-size: xxx-large;
+}
+
+#spanTempoJogo {
+    position: absolute;
+    top: 300px;
+    left: 1500px;
+    z-index:1;
+    font-size: xx-large;
+}
+#Segundos {
+    position: absolute;
+    top: 300px;
+    left: 1600px;
+    z-index:1;
+    font-size: xx-large;
+}

@@ -1,0 +1,116 @@
+/* Grupo: 05 ; Números: 56929, 57160, 56952 ; Nomes: Francisco Pinto fc56929, Gabriel Azevedo fc57160 e Tiago Rosa fc56952 ; PL: 22 */
+
+.block1 {
+  display: block;
+  width: 20%;
+  height: 20%;
+  border: none;
+  background-color: #707070;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block2 {
+  display: block;
+  width: 18%;
+  height: 20%;
+  border: none;
+  background-color: #ff0000;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block3 {
+  display: block;
+  width: 18%;
+  height: 20%;
+  border: none;
+  background-color: #ffffff;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color:#000
+}
+
+.background {
+background: url(../imagens/pokemon_gif.gif);
+background-repeat: no-repeat;
+background-size: cover;
+position:absolute;
+padding:0;
+margin:0;
+z-index: -1;
+top:0;
+left:0;
+filter: blur(4px);
+width: 100%;
+height: 100%;
+}
+
+.modal {
+background-color:#ffffff;
+}
+
+
+p, h1, h2, .block1, .block2, .block3, .tabelacreditos {
+font-family: monospace;
+text-align: center;
+font-size: x-large;
+}
+
+.red {
+color:#fff!important;
+background-color:#f44336!important;
+margin: auto;
+}
+
+.login a {
+background-color:#707070;
+color: White;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+}
+
+.tabelacreditos {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.audiocontainer {
+position: relative;
+bottom: 0px;
+width: 100%;
+}
+
+#resumoinicio {
+font-size: large;
+}
+
+.butaoplay {
+display: block;
+width:auto;
+}
+
+.tabelaeaudiorelative {
+position: relative; 
+height: 100px;
+}
+
+#botaoJogarPokechill {
+display: block;
+width:auto;
+margin:auto;
+background-color: red;
+}
+
+.dropbtn {
+  position: relative;
+}

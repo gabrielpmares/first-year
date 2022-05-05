@@ -1,0 +1,46 @@
+/* Grupo: 05 ; Números: 56929, 57160, 56952 ; Nomes: Francisco Pinto fc56929, Gabriel Azevedo fc57160 e Tiago Rosa fc56952 ; PL: 22 */
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+  color: white;
+  margin: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+#nome{
+    text-align: center;
+}
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+.trofeu{
+    margin-bottom: 100px
+}
+h1{
+    font-family: monospace;
+    text-align: center;
+    font-size: xxx-large;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+  body{
+      background-color: rgb(34, 43, 50);
+  }
+
+
+  
+  .pokebolabtn {
+    width: 15%;
+    border-radius: 50%;
+    float: right;
+  }
+
+.dropbtn {
+    position: relative;
+    top: 0px;
+}
